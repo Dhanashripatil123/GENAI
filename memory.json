@@ -1,0 +1,58 @@
+[
+  {
+    "role": "user",
+    "content": "\nQuestion: hii my name is dhanu\nRelevant Context: 40. Miscellaneous / Appendu\n\nKnowledge Drop (interal sharing). \n37. Student Community Rules \nBe respectfl. No spam/self-promo/ilegal activity. New joiners must use #introduce-yourself on Discord. \nReport issues to moderators/support@codersgyan.in. \n38.  Sample Email Templates \nLoave Roquest \nSubject: Leave Appication\n\nAWS/GitHub access? Reques! via  manager and Notion access form. \n32. Emergancy Contacts \nFire/Police: 112 \nIT: 491 9876 432 123, it@codersgyan.in \nHRA: 491 8987 654 321, priya@codersgyan.in \nSupport Head: +81 8911 223344, saurabh@codersgyan.in \nReport all emergencies by phone & Stack.\nAnswer:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello Dhanu! 👋 How can I help you today?"
+  },
+  {
+    "role": "user",
+    "content": "\nQuestion: hii \nRelevant Context: 40. Miscellaneous / Appendu\n\nfinal settiement in 30 days. \n26. Code Review Checklist \nAll code must: use meaningful names, no hardcoded credentials, be linted, tested, commented, C/CD must \npass, reference JIRA ticket, reviewed by peer/senior Il  security/data. See Section 12 for full workfiow, \n27. Coltaboration Tools\n\n- Sick Leave: 6 per year, accumulates, requires medical certificate if >3 days \n- Privilege: 6 per year, accumulales \n- Matemity: 26 weeks, no accumulation, requires medical certificate \n- Patemity: 7 days, no accumulation, birth certificate needed\nAnswer:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi there! How can I help you today?"
+  },
+  {
+    "role": "user",
+    "content": "\nQuestion: what is my name\nRelevant Context: 40. Miscellaneous / Appendu\n\nAWS/GitHub access? Reques! via  manager and Notion access form. \n32. Emergancy Contacts \nFire/Police: 112 \nIT: 491 9876 432 123, it@codersgyan.in \nHRA: 491 8987 654 321, priya@codersgyan.in \nSupport Head: +81 8911 223344, saurabh@codersgyan.in \nReport all emergencies by phone & Stack.\n\nscholarships in Support portal. \n36. Custom Internal Jargon \nCGer (employee/student), Rocket QA (fast review), Ninja Patch (emergency fix), Code Jam (coding contest), \nKnowledge Drop (interal sharing). \n37. Student Community Rules\nAnswer:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "Your name is Dhanu."
+  },
+  {
+    "role": "user",
+    "content": "\nQuestion: how many leave is this company\nRelevant Context: leaves must be notified by phone/email to both the manager and HR. \nPublic Holidays: 10 company-deciared per year. \nLeave Encashment: Unused privilege leave can be encashed at the end of each year, max 18 days. \nCalculated at basic salary rate.\n\n- Sick Leave: 6 per year, accumulates, requires medical certificate if >3 days \n- Privilege: 6 per year, accumulales \n- Matemity: 26 weeks, no accumulation, requires medical certificate \n- Patemity: 7 days, no accumulation, birth certificate needed\n\nCalculated at basic salary rate. \nLeave Without Pay (LWP): Absence beyond balance will be LWP. >7 days absent without info = voluntary \nabandonment/possible termination. \nSpecial Leave: Sabbatical, study, compassionate leave by written request, subject to management discretion.\nAnswer:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "**Leave entitlements offered by the company**\n\n| Leave type | Annual allowance | Notes |\n|------------|------------------|-------|\n| **Sick leave** | 6 days | Accumulates; medical certificate required if > 3 days |\n| **Privilege (annual paid)** | 6 days | Accumulates; can be encashed (max 18 days) at year‑end |\n| **Maternity leave** | 26 weeks (≈ 182 days) | No carry‑over; requires a medical certificate |\n| **Paternity leave** | 7 days | No carry‑over; birth certificate required |\n| **Public holidays** | 10 days | Company‑declared |\n| **Leave without pay (LWP)** | Any remaining days | Absence beyond balance triggers LWP; > 7 days absent without notice may be viewed as voluntary abandonment |\n| **Special leave** | Variable | Sabbaticals, study, compassionate leave – written request, management discretion |\n\n**Total paid leave days (excluding maternity) per year**  \n6 (sick) + 6 (privilege) + 7 (paternity) + 10 (public holidays) = **29 days**.\n\n(If you include maternity leave in the count, the total would be **29 days + 26 weeks** – the company treats maternity as a separate entitlement that isn’t counted against the annual paid leave balance.)"
+  },
+  {
+    "role": "user",
+    "content": "\nQuestion: how many sick leave\nRelevant Context: - Sick Leave: 6 per year, accumulates, requires medical certificate if >3 days \n- Privilege: 6 per year, accumulales \n- Matemity: 26 weeks, no accumulation, requires medical certificate \n- Patemity: 7 days, no accumulation, birth certificate needed\n\n- Patemity: 7 days, no accumulation, birth certificate needed \n- Bereavement: 5 days, no accumulation, family relationship proof \nAll leave applications must be made in advance via Zoho HR portal, except In emergencies. Emergency sick\n\nleaves must be notified by phone/email to both the manager and HR. \nPublic Holidays: 10 company-deciared per year. \nLeave Encashment: Unused privilege leave can be encashed at the end of each year, max 18 days. \nCalculated at basic salary rate.\nAnswer:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "You’re entitled to **6 days of sick leave per year**.  \n- The leave is cumulative and can be carried forward.  \n- A medical certificate is required if the sick leave exceeds 3 days."
+  },
+  {
+    "role": "user",
+    "content": "\nQuestion: hii\nRelevant Context: 40. Miscellaneous / Appendu\n\nfinal settiement in 30 days. \n26. Code Review Checklist \nAll code must: use meaningful names, no hardcoded credentials, be linted, tested, commented, C/CD must \npass, reference JIRA ticket, reviewed by peer/senior Il  security/data. See Section 12 for full workfiow, \n27. Coltaboration Tools\n\n- Sick Leave: 6 per year, accumulates, requires medical certificate if >3 days \n- Privilege: 6 per year, accumulales \n- Matemity: 26 weeks, no accumulation, requires medical certificate \n- Patemity: 7 days, no accumulation, birth certificate needed\nAnswer:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "Hi! 👋 How can I help you today?"
+  },
+  {
+    "role": "user",
+    "content": "\nQuestion: who am\nRelevant Context: 40. Miscellaneous / Appendu\n\nbackground. \nMission: \n- Deliver high-quality online and offline courses focused on full-stack development. \n- Support leamers with mentorship, peer learning, and real project experience. \n- Build India's largest developer community. \nCore Values: \n- Student-first approach\n\n- Sick Leave: 6 per year, accumulates, requires medical certificate if >3 days \n- Privilege: 6 per year, accumulales \n- Matemity: 26 weeks, no accumulation, requires medical certificate \n- Patemity: 7 days, no accumulation, birth certificate needed\nAnswer:\n"
+  },
+  {
+    "role": "assistant",
+    "content": "You are Dhanu."
+  }
+]

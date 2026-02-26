@@ -1,0 +1,8 @@
+/**
+ * Implementation plan
+ * Stage 1: Indexing
+ * 1. load the document - pdf,txt
+ * 2. chunk the document
+ * 3.
+ * 
+ */
