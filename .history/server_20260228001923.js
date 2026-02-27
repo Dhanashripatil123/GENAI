@@ -9,6 +9,14 @@ dotenv.config();
 
 const app = express();
 app.use(cors());
+// additional explicit CORS headers for robustness
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type,Authorization');
+  if (req.method === 'OPTIONS') return res.sendStatus(200);
+  next();
+});
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
@@ -47,7 +55,9 @@ app.post("/chat", async (req, res) => {
       finalPrompt = `
 You are a company assistant.
 
+Answer ONLY from the company context.
 
+If answer is not in the context, say:
 
 
 ----------------
@@ -82,9 +92,6 @@ ${userMessage}
   }
 });
 
-//
-// ✅ SERVER START
-//
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})

@@ -82,9 +82,6 @@ ${userMessage}
   }
 });
 
-//
-// ✅ SERVER START
-//
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})

@@ -43,9 +43,13 @@ export async function chat() {
             .map(chunk => chunk.pageContent)
             .join('\n\n');
 
-        const SYSTEM_PROMPT = `
-You are a helpful assistant.
+       const SYSTEM_PROMPT = `
+You are a company assistant.
 
+STRICT RULES:
+1. Answer ONLY from the provided context.
+2. If the context is empty or irrelevant → say "I don't know".
+3. For greetings like "hi", "hello" → respond normally.
 
 `;
 

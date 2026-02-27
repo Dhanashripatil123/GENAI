@@ -43,10 +43,19 @@ export async function chat() {
             .map(chunk => chunk.pageContent)
             .join('\n\n');
 
-        const SYSTEM_PROMPT = `
-You are a helpful assistant.
+       const SYSTEM_PROMPT = `
+You are a company assistant.
 
+Answer ONLY from the context.
 
+If not found say:
+"I don't know from company data"
+
+Context:
+${context}
+
+Question:
+${userMessage}
 `;
 
         const userQuery = `

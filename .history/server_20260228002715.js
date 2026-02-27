@@ -46,7 +46,7 @@ app.post("/chat", async (req, res) => {
     if (context && context.trim() !== "") {
       finalPrompt = `
 You are a company assistant.
-
+give answer 
 
 
 

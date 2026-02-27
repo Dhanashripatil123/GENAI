@@ -47,7 +47,9 @@ app.post("/chat", async (req, res) => {
       finalPrompt = `
 You are a company assistant.
 
+Answer ONLY from the company context.
 
+If answer is not in the context, say:
 
 
 ----------------

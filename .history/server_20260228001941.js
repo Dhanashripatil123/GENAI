@@ -47,8 +47,10 @@ app.post("/chat", async (req, res) => {
       finalPrompt = `
 You are a company assistant.
 
+Answer ONLY from the company context.
 
-
+If answer is not in the context, say:
+"I don't know from company data."
 
 ----------------
 Context:
@@ -82,9 +84,6 @@ ${userMessage}
   }
 });
 
-//
-// ✅ SERVER START
-//
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})

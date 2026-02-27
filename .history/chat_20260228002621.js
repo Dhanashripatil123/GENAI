@@ -45,7 +45,7 @@ export async function chat() {
 
         const SYSTEM_PROMPT = `
 You are a helpful assistant.
-
+Use the retrieved context if relevant.
 
 `;
 

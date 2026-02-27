@@ -40,7 +40,7 @@ function showLoader() {
   const div = document.createElement("div");
   div.id = "loader";
   div.className = "text-left mb-4";
-  div.innerHTML = `<span class="bg-gray-700 px-4 py-2 rounded-lg inline-block"> Thinking...</span>`;
+  div.innerHTML = `<span class="bg-gray-700 px-4 py-2 rounded-lg inline-block">⏳ Thinking...</span>`;
   chatContainer.appendChild(div);
 }
 
@@ -52,7 +52,7 @@ function removeLoader() {
 
 // Send message to server
 async function callServer(message) {
-  const response = await fetch("https://genai-backend1.onrender.com/chat", {
+  const response = await fetch("http://localhost:3000/chat", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ threadId, message })

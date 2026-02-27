@@ -43,11 +43,7 @@ export async function chat() {
             .map(chunk => chunk.pageContent)
             .join('\n\n');
 
-        const SYSTEM_PROMPT = `
-You are a helpful assistant.
-
-
-`;
+       
 
         const userQuery = `
 Question: ${questions}
