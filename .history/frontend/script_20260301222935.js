@@ -52,7 +52,7 @@ function removeLoader() {
 
 // Send message to server
 async function callServer(message) {
-  const response = await fetch("http://localhost:3000/chat", {
+  const response = await fetch("htt", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ threadId, message })
